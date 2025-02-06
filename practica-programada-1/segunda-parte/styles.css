@@ -1,0 +1,120 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f9fc;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    padding: 0.5em 0;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  /* Barra de Navegación */
+  .navbar {
+    background-color: #004d80;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .nav-links a:hover {
+    color: #cce7ff;
+  }
+  
+  /* Sección de Perfil del Doctor */
+  .perfil-doctor {
+    text-align: center;
+    padding: 2em 1em;
+    background-color: #ffffff;
+    margin: 1em auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nombre-doctor {
+    color: #004d80;
+    font-size: 2rem;
+  }
+  
+  .especialidad-doctor {
+    color: #007bbd;
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+  }
+  
+  #descripcion-doctor {
+    font-size: 1rem;
+    margin-bottom: 1.5em;
+  }
+  
+  .boton-cita {
+    background-color: #007bbd;
+    color: white;
+    border: none;
+    padding: 0.75em 1.5em;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton-cita:hover {
+    background-color: #005a8c;
+  }
+  
+  /* Sección de Comentarios de Pacientes */
+  .comentario-paciente {
+    text-align: center;
+    padding: 2em 1em;
+  }
+  
+  .comentario-cartas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 1em;
+  }
+  
+  .comentario-carta {
+    background-color: white;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    flex: 1 1 calc(30% - 1em);
+  }
+  
+  .comentario-carta h3 {
+    color: #004d80;
+    font-size: 1.25rem;
+  }
+  
+  .comentario-carta time {
+    display: block;
+    margin-top: 0.5em;
+    color: #666;
+    font-size: 0.875rem;
+  }
+  
