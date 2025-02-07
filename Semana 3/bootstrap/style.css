@@ -25,7 +25,20 @@ body{
     background-color: #495057;
 
 }
+
 .content{
     margin-left: 220px;
     padding: 20px;
 }
+
+.dark-mode {
+    background-color: #212529;
+    color: white;
+}
+
+.dark-mode .table {
+    color: white;
+}
+
+.dark-mode .btn {
+    color: white;}
