@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Objects</h1>
+<h2>Creating an Object</h2>
+ 
+<p id="demo"></p>
+ 
+<script>
+// Create an Object:
+const car = {type:"Fiat",
+             model:"500",
+             color:"white",
+             owner:{
+                FirstName: "John",
+                LastName: "Doe"
+                }
+             };
+ 
+// Display Data from the Object:
+document.getElementById("demo").innerHTML =
+"The car type is " + car.type + " color: " + car["color"] + " the owner is: " + car.owner.FirstName;
+</script>
+ 
+</body>
+</html>

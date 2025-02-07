@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Arrays</h1>
+<h2>The push() Method</h2>
+ 
+<p>The push() method appends a new element to an array:</p>
+ 
+<p id="demo1"></p>
+<p id="demo2"></p>
+ 
+<script>
+const fruit1 = {name: "Banana", price:15};
+const fruit2 = {name: "Orange", price: 20};
+ 
+ 
+const fruits = [fruit1];
+ 
+fruits.push(fruit2);
+alert(fruits.length);
+
+// for(let item of fruits){
+//     alert(item.name);
+//     alert(item.price);
+// }
+
+for(let index =0;index <fruits.length; index++){
+    alert(fruits[index].name)
+}
+
+</script>
+ 
+</body>
+</html>
