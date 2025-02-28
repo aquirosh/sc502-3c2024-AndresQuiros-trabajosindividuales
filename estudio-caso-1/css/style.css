@@ -1,0 +1,21 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border-radius: 8px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+#task-list .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#task-list .list-group-item .task-title {
+    font-weight: bold;
+}
