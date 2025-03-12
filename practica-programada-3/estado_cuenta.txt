@@ -1,0 +1,18 @@
+===== ESTADO DE CUENTA =====
+Fecha: 2025-03-12 02:27:11
+
+DETALLE DE TRANSACCIONES:
+ID        DESCRIPCIÓN                            MONTO          
+-----------------------------------------------------------------
+1         Compra en supermercado                  $1,250.50      
+2         Restaurante                             $450.75        
+3         Gasolina                                $800.00        
+4         Suscripción streaming                  $199.00        
+5         Farmacia                                $320.80        
+-----------------------------------------------------------------
+
+Monto total de contado:                           $3,021.05
+Monto con interés (2.6%):                        $3,099.60
+Cash back (0.1%):                                 $3.02
+-----------------------------------------------------------------
+MONTO FINAL A PAGAR:                              $3,096.58
