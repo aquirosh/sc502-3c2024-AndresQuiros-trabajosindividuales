@@ -1,21 +1,18 @@
 <?php
 require('db.php');
 
-function userRegistry($username, $password, $email) {
+function userRegistry($username, $password, $email){
     try{
         global $pdo;
-        //Encriptacion de password
+        //encriptacion del password de usuario
         $passwordHashed = password_hash($password, PASSWORD_BCRYPT);
-        $sql = "INSERT INTO users (username, password, email) VALUES (:username, :password, :email)";
-        $stmt = $pdo->prepare($sql);
-        $stmt -> execute([
-            'username' => $username,
-            'password' => $passwordHashed,
-            'email' => $email]);
-        return "Usuario registered";
-
-
-    } catch(Exception $e) {
-        echo "Error: " . $e->getMessage();
+        $sql = "INSERT INTO USERS (username, password, email) values (:username, :password, :email)";
+        $stmt = $pdo -> prepare($sql);
+        $stmt -> execute(params: ['username' => $username, 'password' => $passwordHashed, 'email' => $email]);
+        return "User registered";
+        
+    }catch(Exception $e){
     }
 }
+
+$method = $_SERVER["REQUEST_METHOD"];
